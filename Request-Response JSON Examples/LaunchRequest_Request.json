@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.3a69f5a1-fb9b-4c42-9070-2ff1653d1612",
+    "application": {
+      "applicationId": "amzn1.ask.skill.edc49b35-aea9-459f-adcc-4f463dbc7f5a"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AGNIV24GSAUZXHBYDZFYHRBOKC25HU3W7VX4U4MJJODP76Q23OLYMMNAZLZ3ZJK4NJW5L4GWR6RPBSNDYIZFMVQ7MEVWMADSGGSIJNW2DVN55CN2HOPWEFOM7AJ5XSG65OZ6574JQMNLRWCXHYJGZLJZRSJZJK6MXFORORD53AFC2K2FBGHDWVHUT7XRHAAYLAYKH4BTXPFWB6A"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "PLAYING"
+    },
+    "Display": {},
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.edc49b35-aea9-459f-adcc-4f463dbc7f5a"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AGNIV24GSAUZXHBYDZFYHRBOKC25HU3W7VX4U4MJJODP76Q23OLYMMNAZLZ3ZJK4NJW5L4GWR6RPBSNDYIZFMVQ7MEVWMADSGGSIJNW2DVN55CN2HOPWEFOM7AJ5XSG65OZ6574JQMNLRWCXHYJGZLJZRSJZJK6MXFORORD53AFC2K2FBGHDWVHUT7XRHAAYLAYKH4BTXPFWB6A"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AGF5OLGODNSPNQ2CUWM7LFBDA2D4WAPYCK5W6ZJ4MXZ2MKUOHJOQWJTDX7NUTU6I6UOETGM72LTGM4MMRVCAYV63FFFJYZICZBCZ7T6UWDSC7CJA57N3UPGDLV3EPWNZRI7UF5JJU2FF7CQ4MHD726HOUH4Q",
+        "supportedInterfaces": {
+          "AudioPlayer": {},
+          "Display": {
+            "templateVersion": "1.0",
+            "markupVersion": "1.0"
+          },
+          "VideoApp": {}
+        }
+      },
+      "apiEndpoint": "https://api.amazonalexa.com"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "amzn1.echo-api.request.8b4f8f04-00ce-4793-adc4-3a1be0a376c2",
+    "timestamp": "2017-07-04T23:42:27Z",
+    "locale": "en-US"
+  }
+}

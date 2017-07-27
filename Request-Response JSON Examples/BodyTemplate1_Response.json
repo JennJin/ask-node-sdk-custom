@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true,
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> Wait for it... The phrase 'going bananas' was first recorded in the Oxford English Dictionary because of the banana's connection with monkeys. </speak>"
+    },
+    "card": {
+      "type": "Standard",
+      "title": "Did you know...",
+      "image": {
+        "smallImageUrl": "https://s3-us-west-2.amazonaws.com/ask-skills/banana_logo_480x720.jpg",
+        "largeImageUrl": "https://s3-us-west-2.amazonaws.com/ask-skills/banana_logo_480x720.jpg"
+      },
+      "text": "The phrase 'going bananas' was first recorded in the Oxford English Dictionary because of the banana's connection with monkeys."
+    },
+    "directives": [
+      {
+        "type": "Display.RenderTemplate",
+        "template": {
+          "type": "BodyTemplate1",
+          "token": "abc",
+          "backButton": "HIDDEN",
+          "backgroundImage": {
+            "contentDescription": "string",
+            "sources": [
+              {
+                "url": "https://s3-us-west-2.amazonaws.com/ask-skills/banana_logo_480x720.jpg"
+              }
+            ]
+          },
+          "title": "Did you know...",
+          "textContent": {
+            "primaryText": {
+              "type": "RichText",
+              "text": "<font size='3'>The phrase 'going bananas' was first recorded in the Oxford English Dictionary because of the banana's connection with monkeys.</font>"
+            },
+            "secondaryText": {
+              "type": "RichText",
+              "text": ""
+            },
+            "tertiaryText": {
+              "type": "RichText",
+              "text": ""
+            }
+          }
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {}
+}

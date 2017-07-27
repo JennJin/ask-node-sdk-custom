@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak>Video starting now </speak>"
+    },
+    "card": {
+      "type": "Standard",
+      "title": "<Card Title>",
+      "image": {
+        "smallImageUrl": "https://url.to.image",
+        "largeImageUrl": "https://url.to.image"
+      },
+      "text": "<Card Text would go here.>"
+    },
+    "directives": [
+      {
+        "type": "VideoApp.Launch",
+        "videoItem": {
+          "source": "https://url.to.video",
+          "metadata": {
+            "title": "<Video Title>",
+            "subtitle": "<Video Subtitle>"
+          }
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {}
+}

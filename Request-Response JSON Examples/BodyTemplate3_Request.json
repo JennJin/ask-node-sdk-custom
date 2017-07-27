@@ -1,0 +1,51 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": true,
+        "sessionId": "amzn1.echo-api.session.f8dffa2a-a550-4dcc-b58f-3b4fb2d22566",
+        "application": {
+            "applicationId": "amzn1.ask.skill.708890d6-0d2b-497a-858e-ab66eea66e5a"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AF4LYAESUHGZOJSBD4S7ETDHBL4HF2ACW22I2JVBFPPTKJRG4IFLD6ZOFPUSC3M6EBNYBBV7PORPAB777G3PQZ52N6KKBA5J6SJWFJTY2THWM3RXA3WGRZMZC4LC4BTOUQBNPO7FGBSKUJLEDRMIHKWZUTMSPQGUMNG7TDNWEJGZD2D3UG7NTRSIC4HM32IZJ4P5UQM42VNGU7Y"
+        }
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "STOPPED"
+        },
+        "Display": {
+            "token": "abc"
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.708890d6-0d2b-497a-858e-ab66eea66e5a"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AF4LYAESUHGZOJSBD4S7ETDHBL4HF2ACW22I2JVBFPPTKJRG4IFLD6ZOFPUSC3M6EBNYBBV7PORPAB777G3PQZ52N6KKBA5J6SJWFJTY2THWM3RXA3WGRZMZC4LC4BTOUQBNPO7FGBSKUJLEDRMIHKWZUTMSPQGUMNG7TDNWEJGZD2D3UG7NTRSIC4HM32IZJ4P5UQM42VNGU7Y"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AFOTFWUMXV5QTAMRN5XNMY5NDT4AOLUJ4GKJMLRBJR73PRO6AAH2CLB5HXQY7UHDJWTVFT237YZRQYTN6E4XKKM7U7N57DMKW7C3GXHJYKNKMSQ52ZI2AQLD5CWXTYIQLDQ2EPD6PUAUHQMO4MPWLEWQKZBA",
+                "supportedInterfaces": {
+                    "AudioPlayer": {},
+                    "Display": {
+                        "templateVersion": "1.0",
+                        "markupVersion": "1.0"
+                    },
+                    "VideoApp": {}
+                }
+            },
+            "apiEndpoint": "https://api.amazonalexa.com"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.14b75407-ae9e-4eb5-a4af-e6bbc1140853",
+        "timestamp": "2017-07-05T16:48:14Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "BodyTemplateThree",
+            "confirmationStatus": "NONE"
+        }
+    }
+}
