@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true,
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak> Here's List Template number one. Veritcal Lists </speak>"
+    },
+    "directives": [
+      {
+        "type": "Display.RenderTemplate",
+        "template": {
+          "type": "ListTemplate1",
+          "token": "abc",
+          "backButton": "HIDDEN",
+          "backgroundImage": {
+            "contentDescription": "string",
+            "sources": [
+              {
+                "url": ""
+              }
+            ]
+          },
+          "title": "List Item #1",
+          "image": "https://s3-us-west-2.amazonaws.com/ask-skills/banana_logo_480x720.jpg",
+          "listItems": [
+            {
+              "token": "item_1",
+              "image": {
+                "sources": [
+                  {
+                    "url": "https://s3-us-west-2.amazonaws.com/jennjin-ask/images/Bob.jpg"
+                  }
+                ],
+                "contentDescription": "List Item #1"
+              },
+              "textContent": {
+                "primaryText": {
+                  "type": "RichText",
+                  "text": "<font size='3'>Bob</font>"
+                },
+                "secondaryText": {
+                  "type": "RichText",
+                  "text": ""
+                },
+                "tertiaryText": {
+                  "type": "RichText",
+                  "text": ""
+                }
+              }
+            },
+            {
+              "token": "item_2",
+              "image": {
+                "sources": [
+                  {
+                    "url": "https://s3-us-west-2.amazonaws.com/jennjin-ask/images/kevin.jpg"
+                  }
+                ],
+                "contentDescription": "List Item #2"
+              },
+              "textContent": {
+                "primaryText": {
+                  "type": "RichText",
+                  "text": "<font size='3'>Kevin</font>"
+                },
+                "secondaryText": {
+                  "type": "RichText",
+                  "text": ""
+                },
+                "tertiaryText": {
+                  "type": "RichText",
+                  "text": ""
+                }
+              }
+            },
+            {
+              "token": "item_3",
+              "image": {
+                "sources": [
+                  {
+                    "url": "https://s3-us-west-2.amazonaws.com/jennjin-ask/images/Dave.png"
+                  }
+                ],
+                "contentDescription": "List Item #3"
+              },
+              "textContent": {
+                "primaryText": {
+                  "type": "RichText",
+                  "text": "<font size='3'>Dave</font>"
+                },
+                "secondaryText": {
+                  "type": "RichText",
+                  "text": ""
+                },
+                "tertiaryText": {
+                  "type": "RichText",
+                  "text": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {}
+}
