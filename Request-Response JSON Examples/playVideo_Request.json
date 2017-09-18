@@ -2,12 +2,12 @@
     "version": "1.0",
     "session": {
         "new": true,
-        "sessionId": "amzn1.echo-api.session.60e300d6-7b72-4e18-8a6b-fda13b183f08",
+        "sessionId": "amzn1.echo-api.session.<unique ID>",
         "application": {
-            "applicationId": "amzn1.ask.skill.708890d6-0d2b-497a-858e-ab66eea66e5a"
+            "applicationId": "amzn1.ask.skill.<unique ID>"
         },
         "user": {
-            "userId": "amzn1.ask.account.AF4LYAESUHGZOJSBD4S7ETDHBL4HF2ACW22I2JVBFPPTKJRG4IFLD6ZOFPUSC3M6EBNYBBV7PORPAB777G3PQZ52N6KKBA5J6SJWFJTY2THWM3RXA3WGRZMZC4LC4BTOUQBNPO7FGBSKUJLEDRMIHKWZUTMSPQGUMNG7TDNWEJGZD2D3UG7NTRSIC4HM32IZJ4P5UQM42VNGU7Y"
+            "userId": "amzn1.ask.account.<unique ID>"
         }
     },
     "context": {
@@ -17,13 +17,13 @@
         "Display": {},
         "System": {
             "application": {
-                "applicationId": "amzn1.ask.skill.708890d6-0d2b-497a-858e-ab66eea66e5a"
+                "applicationId": "amzn1.ask.skill.<unique ID>"
             },
             "user": {
-                "userId": "amzn1.ask.account.AF4LYAESUHGZOJSBD4S7ETDHBL4HF2ACW22I2JVBFPPTKJRG4IFLD6ZOFPUSC3M6EBNYBBV7PORPAB777G3PQZ52N6KKBA5J6SJWFJTY2THWM3RXA3WGRZMZC4LC4BTOUQBNPO7FGBSKUJLEDRMIHKWZUTMSPQGUMNG7TDNWEJGZD2D3UG7NTRSIC4HM32IZJ4P5UQM42VNGU7Y"
+                "userId": "amzn1.ask.account.<unique ID>"
             },
             "device": {
-                "deviceId": "amzn1.ask.device.AFOTFWUMXV5QTAMRN5XNMY5NDT4AOLUJ4GKJMLRBJR73PRO6AAH2CLB5HXQY7UHDJWTVFT237YZRQYTN6E4XKKM7U7N57DMKW7C3GXHJYKNKMSQ52ZI2AQLD5CWXTYIQLDQ2EPD6PUAUHQMO4MPWLEWQKZBA",
+                "deviceId": "amzn1.ask.device.<unique ID>",
                 "supportedInterfaces": {
                     "AudioPlayer": {},
                     "Display": {
@@ -39,7 +39,7 @@
     },
     "request": {
         "type": "IntentRequest",
-        "requestId": "amzn1.echo-api.request.7acadb14-04d7-4a9d-9a33-2f52d75c587b",
+        "requestId": "amzn1.echo-api.request.<unique ID>",
         "timestamp": "2017-07-05T15:14:34Z",
         "locale": "en-US",
         "intent": {

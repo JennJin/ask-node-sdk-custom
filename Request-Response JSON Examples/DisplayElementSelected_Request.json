@@ -2,12 +2,12 @@
     "version": "1.0",
     "session": {
         "new": false,
-        "sessionId": "amzn1.echo-api.session.9cc04cb4-399e-4a15-a9b1-29f960900737",
+        "sessionId": "amzn1.echo-api.session.<unique ID>",
         "application": {
-            "applicationId": "amzn1.ask.skill.708890d6-0d2b-497a-858e-ab66eea66e5a"
+            "applicationId": "amzn1.ask.skill.<unique ID>"
         },
         "user": {
-            "userId": "amzn1.ask.account.AF4LYAESUHGZOJSBD4S7ETDHBL4HF2ACW22I2JVBFPPTKJRG4IFLD6ZOFPUSC3M6EBNYBBV7PORPAB777G3PQZ52N6KKBA5J6SJWFJTY2THWM3RXA3WGRZMZC4LC4BTOUQBNPO7FGBSKUJLEDRMIHKWZUTMSPQGUMNG7TDNWEJGZD2D3UG7NTRSIC4HM32IZJ4P5UQM42VNGU7Y"
+            "userId": "amzn1.ask.account.<unique ID>"
         }
     },
     "context": {
@@ -16,13 +16,13 @@
         },
         "System": {
             "application": {
-                "applicationId": "amzn1.ask.skill.708890d6-0d2b-497a-858e-ab66eea66e5a"
+                "applicationId": "amzn1.ask.skill.<unique ID>"
             },
             "user": {
-                "userId": "amzn1.ask.account.AF4LYAESUHGZOJSBD4S7ETDHBL4HF2ACW22I2JVBFPPTKJRG4IFLD6ZOFPUSC3M6EBNYBBV7PORPAB777G3PQZ52N6KKBA5J6SJWFJTY2THWM3RXA3WGRZMZC4LC4BTOUQBNPO7FGBSKUJLEDRMIHKWZUTMSPQGUMNG7TDNWEJGZD2D3UG7NTRSIC4HM32IZJ4P5UQM42VNGU7Y"
+                "userId": "amzn1.ask.account.<unique ID>"
             },
             "device": {
-                "deviceId": "amzn1.ask.device.AFOTFWUMXV5QTAMRN5XNMY5NDT4AOLUJ4GKJMLRBJR73PRO6AAH2CLB5HXQY7UHDJWTVFT237YZRQYTN6E4XKKM7U7N57DMKW7C3GXHJYKNKMSQ52ZI2AQLD5CWXTYIQLDQ2EPD6PUAUHQMO4MPWLEWQKZBA",
+                "deviceId": "amzn1.ask.device.<unique ID>",
                 "supportedInterfaces": {
                     "AudioPlayer": {},
                     "Display": {
@@ -30,7 +30,6 @@
                         "markupVersion": "1.0"
                     },
                     "VideoApp": {},
-                    "VideoPlayer": {}
                 }
             },
             "apiEndpoint": "https://api.amazonalexa.com"
@@ -38,7 +37,7 @@
     },
     "request": {
         "type": "Display.ElementSelected",
-        "requestId": "amzn1.echo-api.request.3923bb8b-00b1-4a1f-8262-0fc66b43d272",
+        "requestId": "amzn1.echo-api.request.<unique ID>",
         "timestamp": "2017-07-27T20:34:02Z",
         "locale": "en-US",
         "token": "BodyTemplateOne"

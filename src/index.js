@@ -455,7 +455,7 @@ var handlers = {
                 }
             ];
             
-            this.response.listTemplateOne(token, backButton, backgroundImage, title, image, listItems);  
+            this.response5(token, backButton, backgroundImage, title, image, listItems);  
         }
         this.emit(':responseReady'); 
     },
